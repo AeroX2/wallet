@@ -1,0 +1,9 @@
+# FreeCAD backup and autosave files
+*.FCBak
+*.FCStd1
+*.FCStd2
+*.fcstd.lock
+
+# OS files
+Thumbs.db
+.DS_Store

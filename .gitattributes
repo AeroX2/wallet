@@ -1,0 +1,6 @@
+# Large binaries are stored with Git LFS. The FreeCAD models in particular are
+# far past GitHub's 100 MB per-file limit and cannot be pushed without this.
+*.FCStd filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
